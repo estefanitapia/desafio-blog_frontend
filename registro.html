@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Estefani Tapia"/>
@@ -11,40 +11,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- Css Propio -->
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
+  </head>
   <body>
     <header class="py-3">
       <figure class="logo">
           <img class="logo__img" src="assets/img/logos/adl.png" alt="logo_adl">
           <span class="logo__titulo" >Blog FrontEnd</span>
       </figure>
-  </header>
+    </header>
   <hr class="separador">
-    <!-- LOGIN -->
-    <main class="index__login">
-      <form action="./home.html" class="login">
+    <main class="registro">
+      <form action="./index.html" class="login">
         <div class="login-container">
-          <h2 class="login__title">Iniciar sesión</h2>
+          <h2 class="login__title">Registrate ¡Es gratis!</h2>
           <input class="login__input" type="email" name="" id="" placeholder="Nombre"/>
-          <input class="login__input" type="password" name="password" id="" placeholder="Contraseña"/>
-          <div class="login-remember">
-            <div class="login-checkbox">
-              <input class="login-remember__input" type="checkbox" id="rememberMe"/>
-              <label for="rememberMe">Recordarme</label>
-            </div>
-            <a href="#" class="login_remember__link">¿Olvidaste tu contraseña?</a>
-          </div>
+          <input class="login__input" type="email" name="" id="" placeholder="Apellido"/>
+          <input class="login__input" type="email" name="" id="" placeholder="Email"/>
+          <input class="login__input" type="password" name="" id="" placeholder="Contraseña"/>
+          <input class="login__input" type="password" name="" id="" placeholder="Confirma tu contraseña"/>
         </div>
         <div class="login__buttons">
           <button class="login__buttons--button login__buttons--entrar">
-            <a href="home.html" class="loggin__buttons--entrar">Iniciar sesión</a>
+            <a href="index.html" class="loggin__buttons--entrar">Crea tu cuenta</a>
           </button>
           <button class="login__buttons--button login__buttons--button-google">
             <img class="login__buttons-img" src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="google-logo"/>
-            <a href="home.html">Iniciar sesión con Google</a>
+            <span>Registrate con Google</span>
           </button>
-          <p class="login__buttons-register">¿No tienes cuenta?
-            <a class="login__buttons-register-link" href="registro.html">Registrate</a>
+          <p class="login__buttons-register">¿Ya tienes una cuenta?
+            <a class="login__buttons-register-link" href="index.html">Inicia Sesión</a>
           </p>
         </div>
       </form>

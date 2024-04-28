@@ -1,0 +1,127 @@
+/* Novedades */
+.novedad__body {
+    display:flex;
+    flex-direction: column;
+}
+
+.novedad__img {
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.novedad__fecha {
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.novedad--horizontal {
+    flex-direction: column;
+    align-items: start;
+}
+
+.novedad--vertical {
+    display: flex;
+    flex-direction: row;
+    width: 35vw;
+    padding: 10px 10px 10px 10px;
+}
+
+.novedad__section--vertical {
+    padding-left: 20px;
+}
+
+.novedad__img--small {
+    width: 210px;
+    height: 145px;
+    border-radius: 20px;
+}
+
+/* Marca */
+.marca {
+    display: flex;
+    align-items: center;
+}
+
+.marca__img {
+    height: 7vh;
+    border-radius: 50%;
+}
+
+.marca__fecha {
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.marca__img--small {
+    height: 5vh;
+    border-radius: 50%;
+}
+
+/* Populares */
+.popular__body {
+    display:flex;
+    flex-direction: column;
+}
+
+.popular__img {
+    width: 30vw;
+    height: 38vh;
+    border-radius: 20px;
+}
+
+.popular__fecha {
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.popular--horizontal {
+    flex-direction: column;
+    align-items: start;
+}
+
+/* Categorias */
+.categoria {
+    width: 20vw;
+    height: 10vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.categoria__img {
+    height: 7vh;
+}
+
+/* Relacionados */
+.relacionado__body {
+    display:flex;
+    flex-direction: column;
+}
+
+.relacionado__img {
+    width: 22vw;
+    height: 30vh;
+    border-radius: 20px;
+}
+
+.relacionado__fecha {
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.relacionado--horizontal {
+    flex-direction: column;
+    align-items: start;
+}
+
+.noticia__img {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem 1rem 0rem ;
+}

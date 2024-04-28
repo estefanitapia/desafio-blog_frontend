@@ -1,0 +1,27 @@
+/* Manifiesto Main */
+
+//abstract
+
+//vendors
+
+//base
+@use "base/base";
+@use "base/reset";
+@use "base/typography";
+
+//layout
+@use "layout/header";
+@use "layout/form-login";
+@use "layout/form-subscripcion";
+@use "layout/noticias";
+
+//components
+@use "components/articles";
+@use "components/buttons";
+@use "components/inputs";
+
+//pages
+
+//themes
+
+
